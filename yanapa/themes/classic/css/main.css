@@ -1,0 +1,143 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.form-control {width:250px;}
+.popover {max-width:800px;}
+.fondo{
+	background: url(../img/wallpaper2.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 320px;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+}
+.head2{
+	padding-top: 50px;
+	padding-left: 70px;
+}
+.head3{
+	padding-top: 50px;
+}
+/*------MENU INTERNO------*/
+#menu-interno{
+	height:46px;
+	width:786px;
+	display:block;
+	float:right;
+}
+#menu-interno ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu-interno li a{
+	width:150px;
+	height:32px;
+	display:block;
+	float:right;
+	margin-left:6px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#83CEE8;
+	text-align:center;
+	text-decoration:none;
+	padding-top:14px;
+	background:url(../imagenes/fondo-boton-interno.png) no-repeat;
+	
+	border-radius:15px 15px 0 0;
+	-moz-border-radius:15px 15px 0 0;
+	-ms-border-radius:15px 15px 0 0;
+	-o-border-radius:15px 15px 0 0;
+	-webkit-border-radius:15px 15px 0 0;
+	
+	background:linear-gradient(top, #0DC2FF, #007095);
+	background:-moz-linear-gradient(top, #0DC2FF, #007095);
+	background:-ms-linear-gradient(top, #0DC2FF, #007095);
+	background:-o-linear-gradient(top, #0DC2FF, #007095);
+	background:-webkit-linear-gradient(top, #0DC2FF, #007095);
+	
+	transition:transform 0.4s;
+	-moz-transition:-moz-transform 0.4s;
+	-ms-transition:-ms-transform 0.4s;
+	-o-transition:-o-transform 0.4s;
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menu-interno li a:hover{
+	color:#FFFFFF;
+	transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2);
+}
+
+.color1{
+	background-color: #F0F0E1;
+}
+.color2{
+	background-color: #FFFFFF;
+}
+.color3{
+	background-color: #008C23;
+}
+.color4{
+	color: #FFFFFF;
+	text-align: center;
+}
+.color5{
+	background-color: #BABABA;
+}
+
+
+/*Estilos Carousel*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 320px;
+  background-color:#555;
+  width: 100%;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-height: 60px;
+}
+
+/* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+}
+.fuente{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+
+.thumbnail {
+	padding:0;
+}
+.margen_izq{
+	padding-left: 30px;
+}
+.margen_der{
+	padding-right: 30px;
+}
